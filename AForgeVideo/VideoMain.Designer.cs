@@ -63,7 +63,7 @@
             this.videoSourcePlayer.BackColor = System.Drawing.SystemColors.ControlDark;
             this.videoSourcePlayer.Location = new System.Drawing.Point(12, 57);
             this.videoSourcePlayer.Name = "videoSourcePlayer";
-            this.videoSourcePlayer.Size = new System.Drawing.Size(575, 388);
+            this.videoSourcePlayer.Size = new System.Drawing.Size(640, 480);
             this.videoSourcePlayer.TabIndex = 4;
             this.videoSourcePlayer.VideoSource = null;
             this.videoSourcePlayer.Paint += new System.Windows.Forms.PaintEventHandler(this.videoSourcePlayer_Paint);
@@ -104,7 +104,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(599, 457);
+            this.ClientSize = new System.Drawing.Size(664, 551);
             this.Controls.Add(this.SettingButton);
             this.Controls.Add(this.disconnectButton);
             this.Controls.Add(this.connectButton);

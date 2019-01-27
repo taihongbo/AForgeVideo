@@ -62,7 +62,6 @@ namespace AForgeVideo
                 }  
                 EnableConnectionControls(false); 
                 videoSourcePlayer.VideoSource = videoDevice;
-                
                 videoSourcePlayer.Start();
             }
         }
